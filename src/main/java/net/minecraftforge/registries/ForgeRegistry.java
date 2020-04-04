@@ -648,7 +648,7 @@ public class ForgeRegistry<V extends IForgeRegistryEntry<V>> implements IForgeRe
 
             if (currId == -1)
             {
-                FMLLog.log.info("Registry {}: Found a missing id from the world {}", this.superType.getSimpleName(), itemName);
+                //FMLLog.log.info("Registry {}: Found a missing id from the world {}", this.superType.getSimpleName(), itemName);
                 missing.put(itemName, newId);
                 continue; // no block/item -> nothing to add
             }

@@ -136,7 +136,7 @@ task changelog() {
     outputs.file output
     
     doLast {
-        output.text = changelog_new.text + '\n' + changelog_old.text
+        
     }
 }
 
