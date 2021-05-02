@@ -63,7 +63,7 @@ minecraft {
 
 ext {
     //Dirty hack, but keeps our unique version system on new jenkins
-    BUILD_NUMBER = 2838 + (System.getenv('BUILD_NUMBER') ?: project.ext.properties.buildNumber ?: 0).toInteger()
+    BUILD_NUMBER = 2855 + (System.getenv('BUILD_NUMBER') ?: project.ext.properties.buildNumber ?: 0).toInteger()
     
     JAR_SIGNER = [:]
     if (project.hasProperty('keystore')) {

@@ -1,0 +1,1 @@
+The build script for forge is broken, delete the /projects/ folder before running "gradlew build".  5-2-2021
